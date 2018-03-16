@@ -1,0 +1,28 @@
+﻿Build started 2018/3/15 16:15:22.
+     1>Project "D:\Work\testdll\testdll\testdll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\testdll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\testdll.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt testdll.cpp
+         testdll.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\testdll\Release\testdll.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\testdll.def" /MANIFEST /ManifestFile:"Release\testdll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work\testdll\Release\testdll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\testdll\Release\testdll.lib" /MACHINE:X86 /DLL Release\testdll.res
+         Release\stdafx.obj
+         Release\testdll.obj
+            Creating library D:\Work\testdll\Release\testdll.lib and object D:\Work\testdll\Release\testdll.exp
+         Generating code
+         Finished generating code
+         testdll.vcxproj -> D:\Work\testdll\Release\testdll.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Work\testdll\Release\testdll.dll;#2" /manifest Release\testdll.dll.intermediate.manifest "D:\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\testdll.unsuccessfulbuild".
+         Touching "Release\testdll.lastbuildstate".
+     1>Done Building Project "D:\Work\testdll\testdll\testdll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.26
