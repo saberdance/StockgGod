@@ -1,5 +1,6 @@
 // dllmain.cpp : Defines the entry point for the DLL application.
 #include "stdafx.h"
+#pragma comment(lib,"lua51.lib")
 #include "luajit/lua.hpp"
 extern int luaopen_CppCore(lua_State *L) ;
 
@@ -18,6 +19,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 	switch (ul_reason_for_call)
 	{
 	case DLL_PROCESS_ATTACH:
+		OutputDebugStringA("Cppcore In!");
 		LocaLuaOpen();
 	case DLL_THREAD_ATTACH:
 	case DLL_THREAD_DETACH:
