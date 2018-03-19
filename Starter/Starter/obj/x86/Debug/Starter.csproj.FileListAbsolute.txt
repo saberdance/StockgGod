@@ -1,8 +1,0 @@
-D:\Work\Starter\Starter\bin\Debug\Starter.exe
-D:\Work\Starter\Starter\bin\Debug\Starter.pdb
-D:\Work\Starter\Starter\obj\x86\Debug\Starter.csprojResolveAssemblyReference.cache
-D:\Work\Starter\Starter\obj\x86\Debug\Starter.Form1.resources
-D:\Work\Starter\Starter\obj\x86\Debug\Starter.Properties.Resources.resources
-D:\Work\Starter\Starter\obj\x86\Debug\Starter.csproj.GenerateResource.Cache
-D:\Work\Starter\Starter\obj\x86\Debug\Starter.exe
-D:\Work\Starter\Starter\obj\x86\Debug\Starter.pdb

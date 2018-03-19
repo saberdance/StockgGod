@@ -1,0 +1,32 @@
+﻿Build started 2018/3/19 11:14:52.
+     1>Project "D:\Work\src\CppCore\CppCore.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\CppCore.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Work\src\..\ThirdParty /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CPPCORE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CppCore.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Work\src\..\ThirdParty /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CPPCORE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CppCore.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CppCore.cpp
+         CppCore.cpp
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Work\src\..\ThirdParty /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CPPCORE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CppCore.dll.embed.manifest.res" Debug\CppCore_manifest.rc 
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\src\..\bin\Debug\CppCore.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CppCore.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work\bin\Debug\CppCore.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\src\..\bin\Debug\CppCore.lib" /MACHINE:X86 /DLL Debug\CppCore.dll.embed.manifest.res
+         Debug\CppCore.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CppCore.dll.embed.manifest" /manifest Debug\CppCore.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         CppCore.vcxproj -> D:\Work\src\..\bin\Debug\CppCore.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\CppCore.unsuccessfulbuild".
+         Touching "Debug\CppCore.lastbuildstate".
+     1>Done Building Project "D:\Work\src\CppCore\CppCore.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02
